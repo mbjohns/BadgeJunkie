@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "badge junkie"
+version = "0.1.0"
+description = "The repo that can’t get enough of those shiny badges!"
+authors = ["Matt"]
+license = "BSD-3-Clause"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^2.1.3"
+matplotlib = "^3.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
